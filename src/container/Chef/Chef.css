@@ -1,6 +1,7 @@
 .app__chef-content{
     width: 100%;
     display: flex;
+    align-items: center;
 }
 
 .app__chef-content_img img{
@@ -10,3 +11,42 @@
 .app__chef-content_word{
     margin-left: 4rem;
 }
+
+.app__chef-content_word img {
+    margin-top: 1rem;
+    width: 60px;
+}
+
+
+.app__chef-content_word .word{
+    margin-left: 6rem;
+    margin-top: -3rem;
+    text-align: left;
+}
+
+@media screen and (max-width:2000px) {
+    
+    .app__chef-content img{
+            height: 500px;
+        }
+        
+  
+    .app__chef-content_word img{
+        height: 40px;
+    }
+    }
+    @media screen and (max-width:900px) {
+        .app__chef-content{
+            flex-direction: column;
+        }
+        .app__chef-content_word .heading{
+            margin-top: 2rem;
+        }
+        
+        .app__chef-content_word .word{
+            margin-top: -2rem;
+        }
+    }
+    @media screen and (max-width:650px) {
+    
+    }

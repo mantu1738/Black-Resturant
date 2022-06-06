@@ -10,18 +10,16 @@ const Chef = () => (
         <img src={images.chef} alt="chef" />
       </div>
       <div className="app__chef-content_word">
-        <p className="p__cormorant">Chef's Word</p>
+        <p className="p__cormorant heading">Chef's Word</p>
         <img src={images.spoon} alt="spoon" />
         <h1 className="headtext__cormorant">What We Believe In</h1>
-        <div className="words">
-          <p className="p__opensans">
-            <img src={images.quote} alt="quote" />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            ducimus vitae voluptatibus labore iure aliquam molestias harum alias
-            incidunt consequatur nulla eos recusandae magnam in minus qui, dicta
-            nesciunt cum!
-          </p>
-        </div>
+        <img src={images.quote} alt="quote" />
+        <p className="p__opensans word">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          ducimus vitae voluptatibus labore iure aliquam molestias harum alias
+          incidunt consequatur nulla eos recusandae magnam in minus qui, dicta
+          nesciunt cum!
+        </p>
         <p className="p__cormorant">Kevin Luo</p>
         <p className="p__opensans">Head Chef</p>
       </div>
