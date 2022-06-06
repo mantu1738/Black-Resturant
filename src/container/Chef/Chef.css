@@ -1,0 +1,12 @@
+.app__chef-content{
+    width: 100%;
+    display: flex;
+}
+
+.app__chef-content_img img{
+    width: 410px;
+}
+
+.app__chef-content_word{
+    margin-left: 4rem;
+}
